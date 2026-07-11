@@ -1,0 +1,10 @@
+a = input("digite algo: ")
+print("o tipo primitivo desse valor é: ", type(a))
+#sempre vai mostrar string pq nao foi definido o tipo primitivo no input
+print("so tem espaços? ", a.isspace())
+print("é um numero? ", a.isnumeric())
+print("é alfabetico? ", a.isalpha())
+print("é alfanumerico? ", a.isalnum())
+print("esta em maiusculas? ", a.isupper())
+print("esta em minusculas? ", a.islower())
+print("esta capitalizada? ", a.istitle())
